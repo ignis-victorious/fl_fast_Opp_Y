@@ -12,7 +12,7 @@ from app.ui import build_ui
 
 
 def main(page: ft.Page) -> None:
-    build_ui(page)
+    build_ui(page=page)
 
 
 app = FastAPI()
@@ -28,7 +28,9 @@ app.mount(path="/", app=flet_app)
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app=app, host="0.0.0.0", port=8550)
+    # for development, set reload=True
+    # uvicorn.run(app=app, host="0.0.0.0", port=8550)
+    uvicorn.run(app="main:app", host="0.0.0.0", port=8550, reload=True)
 
 
 #
