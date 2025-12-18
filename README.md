@@ -43,6 +43,10 @@ uv run fastapi deploy
 [29 Why Use FastAPI with Flet? Architecture Tradeoffs Explained PYTH 7.02 Oppkey](https://www.youtube.com/watch?v=3jrJPwSah3I)  
 [30 Minimal Flet + FastAPI App (Python 3.12, uv, Health Check Demo) PYTH 7.03 Oppkey](https://www.youtube.com/watch?v=YNcaFs3QG0g) 
 [31 Adding Business Logic with FastAPI + Pydantic (Flet UI Inputs, Python Full Stack) PYTH 7.04 Oppkey](https://www.youtube.com/watch?v=3dRERrJrbn8)  
+[32 Connecting Flet UI to FastAPI Backend (POST Requests, Threading, Live Updates) PYTH 7.05 Oppkey](https://www.youtube.com/watch?v=OAwD-f3ig8Y)  
+[33 Separation of Concerns in Flet + FastAPI: Two Servers, One App (and How to Test with curl) 7.06 Oppkey](https://www.youtube.com/watch?v=7piif-eSvAM)  
+
+
 
 
 
